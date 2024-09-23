@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+.container {
+    
+    
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 170px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+section ul li {
+    margin: 0 15px;
+}
+h2 :hover {
+    color: #af4ca0;
+}
+/* .............................................................Home Page */
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    background-color: #f4f4f4;
+    padding: px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-item {
+    width: 45%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+.course-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* .............................................................Courses */
+.course {
+    margin-bottom: 40px;
+}
+
+.course-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.course-media {
+    width: 40%;
+}
+
+.course-media img, .course-media video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.course-details {
+    width: 55%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+/* .............................................................Resources */
+.resource-section {
+    margin-bottom: 50px;
+}
+
+.download-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.download-list li {
+    margin-bottom: 15px;
+}
+
+.download-list a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+.download-list a:hover {
+    text-decoration: underline;
+}
+
+.tutorials, .tools {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tutorial-item, .tool-item {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tutorial-item img, .tool-item img, .tutorial-item video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+/* .............................................................Tutors */
+.tutor {
+    margin-bottom: 40px;
+}
+
+.tutor-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tutor-media {
+    margin-right: 20px;
+}
+
+.tutor-media img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.tutor-details {
+    flex: 1;
+}
+
+/* .............................................................Blog */
+.blog-post {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-size: 1.5em;
+}
+
+.blog-post .date {
+    font-size: 0.9em;
+    color: gray;
+}
+
+/* .............................................................Testimonials */
+.testimonial {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.testimonial-media {
+    margin-right: 20px;
+}
+
+.testimonial-media img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-content h3 {
+    margin: 0 0 10px;
+}
+/* .............................................................FAQ */
+.faq {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.faq h2 {
+    font-size: 1.2em;
+}
+
+/* .............................................................Signup */
+
+.signup-container {
+    max-width: 400px;
+    margin: 180px auto 0; /* Add top margin equal to the header height */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.signup-container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* .............................................................Contact */
+
+.contact-container {
+    max-width: 600px;
+    margin: 180px auto 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+}
